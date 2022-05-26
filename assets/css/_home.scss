@@ -2,6 +2,7 @@
   position: relative; // To use absolute for image.
   row-gap: 5rem;
   padding: 4rem 0 5rem;
+  height: calc(100vh - #{$header-height});
 
   &__data {
     align-self: center;
@@ -16,26 +17,26 @@
     }
   }
 
-  &__social {
-    display: flex;
-    flex-direction: column;
+  // &__social {
+  //   display: flex;
+  //   flex-direction: column;
 
-    &-icon {
-      width: max-content;
-      margin-bottom: $mb-2;
-      font-size: 1.5rem;
-      color: $second-color;
+  //   &-icon {
+  //     width: max-content;
+  //     margin-bottom: $mb-2;
+  //     font-size: 1.5rem;
+  //     color: $second-color;
 
-      &:hover {
-        color: $first-color;
-      }
-    }
-  }
+  //     &:hover {
+  //       color: $first-color;
+  //     }
+  //   }
+  // }
 
-  &__img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 200px;
-  }
+  // &__img {
+  //   position: absolute;
+  //   right: 0;
+  //   bottom: 0;
+  //   width: 200px;
+  // }
 }

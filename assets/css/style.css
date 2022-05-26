@@ -163,6 +163,7 @@ img {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
+  height: calc(100vh - 3rem);
 }
 
 .home__data {
@@ -178,36 +179,6 @@ img {
 
 .home__title-color {
   color: #3e6ff4;
-}
-
-.home__social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.home__social-icon {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-  color: #0d1730;
-}
-
-.home__social-icon:hover {
-  color: #3e6ff4;
-}
-
-.home__img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 200px;
 }
 
 .about__container {
